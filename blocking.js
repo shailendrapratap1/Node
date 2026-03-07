@@ -27,3 +27,20 @@ return res
 var c= multiplyFn(a,b);
 console.log("multiplication result is : ", c);
  
+
+// const crypto = require("node:crypto")
+// console.log("hello world")
+// var a = 10909090;
+// var b= 20908;
+
+// crypto.pbkdf2("password","salt",5000000,50,"sha152",(err,key)=>{
+//     console.log("second key is generated")
+// })
+
+// function multiplyFn(x,y){
+// const result = a*b;
+// return result;
+// }
+
+// var c= multiplyFn(a,b);
+// console.log("Multiplication result is :", c);

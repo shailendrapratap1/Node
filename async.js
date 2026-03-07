@@ -24,7 +24,17 @@ fs.readFile("./file.txt","utf8",(err,data)=>{
 })
 
 
+// const fs = require("fs");
+// const https = require("https");
+// fs.readFileSync("./file.txt","utf-8")
+// https.get("https://dummyjson.com/products/1",(res)=>{
+//     console.log("data fetch successfully")
+//     console.log("execute it after 5 seconds")
 
+// },5000)
+// fs.readFile("./file.txt","utf-8",(err,data)=>{
+//     console.log("file data:" + data)
+// })
 
 function multiplyFn(x,y){
     const result = a*b;
